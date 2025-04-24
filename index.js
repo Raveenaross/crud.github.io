@@ -20,7 +20,7 @@ MongoClient.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true 
       const password = req.body.psw;
 
       // For simplicity, assuming hardcoded admin credentials
-      if (name === 'Raveena' && password === 'nosecrets123') {
+      if (name === '####' && password === '####') {
         res.redirect('/admin.html'); // Redirect to admin home page after successful login
       } else {
         res.send('Invalid credentials');
